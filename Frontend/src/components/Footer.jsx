@@ -9,37 +9,39 @@ function Footer() {
          
         </div>
         <div className="flex flex-row text-black justify-between">
-          <ul className="text-sm">
+        <ul className="text-sm mr-8">
             <li><a className="text-black font-bold hover:text-black">About</a></li>
             <li><a className="text-gray-600 hover:text-black">About Us</a></li>
             <li><a className="text-gray-600 hover:text-black">Find store</a></li>
             <li><a className="text-gray-600 hover:text-black">Categories</a></li>
             <li><a className="text-gray-600 hover:text-black">Blogs</a></li>
           </ul>
-          <ul className="text-sm">
-            <li><a className="text-black font-bold hover:text-black">About</a></li>
+          <ul className="text-sm mr-8">
+            <li><a className="text-black font-bold hover:text-black">Partnership</a></li>
             <li><a className="text-gray-600 hover:text-black">About Us</a></li>
             <li><a className="text-gray-600 hover:text-black">Find store</a></li>
             <li><a className="text-gray-600 hover:text-black">Categories</a></li>
             <li><a className="text-gray-600 hover:text-black">Blogs</a></li>
           </ul>
-          <ul className="text-sm">
-            <li><a className="text-black font-bold hover:text-black">About</a></li>
+          <ul className="text-sm mr-8">
+            <li><a className="text-black font-bold hover:text-black">Information</a></li>
             <li><a className="text-gray-600 hover:text-black">About Us</a></li>
             <li><a className="text-gray-600 hover:text-black">Find store</a></li>
             <li><a className="text-gray-600 hover:text-black">Categories</a></li>
             <li><a className="text-gray-600 hover:text-black">Blogs</a></li>
           </ul>
-          <ul className="text-sm">
-            <li><a className="text-black font-bold hover:text-black">About</a></li>
+          <ul className="text-sm mr-8">
+            <li><a className="text-black font-bold hover:text-black">For Users</a></li>
             <li><a className="text-gray-600 hover:text-black">About Us</a></li>
             <li><a className="text-gray-600 hover:text-black">Find store</a></li>
             <li><a className="text-gray-600 hover:text-black">Categories</a></li>
             <li><a className="text-gray-600 hover:text-black">Blogs</a></li>
           </ul>
         </div>
-        <div className="text-right text-black">
-          <p className="text-sm">Get app</p>
+        <div className=" text-black ">
+          <p className="text-sm mb-5">Get app</p>
+          <button className='w-full p-2 bg-black text-white h-12'>App store</button>
+          <button  className='w-full p-2 bg-black text-white h-12 mt-2'>Google Play</button>
         </div>
       </div>
     </footer>

@@ -3,14 +3,15 @@ import profile from '../assets/profile.svg';
 import love from '../assets/love.svg';
 import cart from '../assets/cart.svg';
 import message from '../assets/message.svg';
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
     <nav className="p-4 flex justify-between items-center">
       <div className="flex items-center">
-        <a href="#" className="text-blue-700 font-bold text-xl ml-10">
+        <Link to='/' className="text-blue-700 font-bold text-xl ml-10">
           Brand
-        </a>
+        </Link>
       </div>
       <div className="flex items-center">
         <input
